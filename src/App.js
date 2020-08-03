@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import styled from '@emotion/styled';
 import Phrase from './components/Phrase';
+import Title from './components/Title';
 
 const Container = styled.div`
   display: flex;
@@ -10,14 +11,15 @@ const Container = styled.div`
 `;
 
 const Button = styled.button`
-  background: -webkit-linear-gradient(top left, #007d35 0%, #007d35 40%, #0f574e 100%);
+  background: -webkit-linear-gradient(top left, #FCC244 0%, #FAC138  40%, #F3BE38  100%);
   background-size: 300px;
-  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 2rem;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
   color: #fff;
   margin-top: 3rem;
   padding: 1rem 3rem;
   font-size: 2rem;
-  border: 2px solid black;
 `;
 
 function App() {
@@ -33,7 +35,7 @@ function App() {
 
   return (
     <Container>
-    
+    <Title/>
     <Phrase
       phrase = {phrase}
     />

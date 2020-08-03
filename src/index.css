@@ -11,11 +11,9 @@ html {
   height: 100%;
 }
 body {
-  background-image: url(logo.png), -webkit-linear-gradient(top left, #007d35 0%, #007d35 40%, #0f574e 100%);
-  min-height: 100%;
-  background-position: center 80px, center center;
-  background-repeat:no-repeat;
-  background-size: 300px, 100% 100%;
+  background: -webkit-linear-gradient(top left, #78C9CE 0%, #78C9CE 40%, #0f574e 100%);
+  width: 100%;
+  min-height: 80%;
   display: flex;
   align-items: flex-end;
 }

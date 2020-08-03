@@ -2,7 +2,7 @@ import React from "react";
 import styled from '@emotion/styled';
 
 const PhraseContainer = styled.div`
-  padding: 3rem;
+  padding: 2rem;
   border-radius: .5rem;
   background-color: #fff;
   max-width: 800px;
@@ -31,7 +31,7 @@ const PhraseContainer = styled.div`
     font-size:1.4rem;
     font-weight:bold;
     text-align: right;
-    color: #666;
+    color: #FFF;
     margin-top: 2rem;
   }
 `;
