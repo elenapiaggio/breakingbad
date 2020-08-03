@@ -1,9 +1,14 @@
-import React from 'react';
+import React, { Fragment } from "react";
 
-const Phrase = () => {
-    return ( 
-        <h1> Phrase</h1>
-     );
-}
- 
+const Phrase = ({ phrase }) => {
+  
+  return (
+  
+    <Fragment>
+      <h1> {phrase.quote}</h1>
+      {/* <p>{phrase.author}</p> */}
+    </Fragment>
+  );
+};
+
 export default Phrase;
