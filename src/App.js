@@ -26,7 +26,7 @@ function App() {
   const [phrase, setPhrase] = useState({});
 
   const consultAPI = async () => {
-    const api = await fetch('http://breaking-bad-quotes.herokuapp.com/v1/quotes');
+    const api = await fetch('https://breaking-bad-quotes.herokuapp.com/v1/quotes');
     const phrase = await api.json();
     setPhrase(phrase[0]);
   }
