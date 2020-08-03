@@ -8,7 +8,7 @@ const PhraseContainer = styled.div`
   max-width: 800px;
 
   @media (min-width: 992px){
-    margin-top:10rem;
+    margin-top:5rem;
   }
 
   h1{

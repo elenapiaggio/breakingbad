@@ -6,7 +6,7 @@ import Title from './components/Title';
 const Container = styled.div`
   display: flex;
   align-items: center;
-  padding-top: 5rem;
+  padding-top: 2rem;
   flex-direction: column;
 `;
 
