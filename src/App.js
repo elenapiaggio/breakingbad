@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from '@emotion/styled';
-import logo from './logo.png';
 
 const Container = styled.div`
   display: flex;
@@ -21,10 +20,16 @@ const Button = styled.button`
 `;
 
 function App() {
+
+  const consultAPI = () => {
+    console.log('consulting api ...')
+  }
   return (
     <Container>
       <h1>Get Breaking bad phrase</h1>
-      <Button>
+      <Button
+        onClick = {consultAPI}
+      >
         Get phrase
       </Button>
     </Container>
