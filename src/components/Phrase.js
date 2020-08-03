@@ -31,7 +31,7 @@ const PhraseContainer = styled.div`
     font-size:1.4rem;
     font-weight:bold;
     text-align: right;
-    color: #FFF;
+    color: #5E6A72;
     margin-top: 2rem;
   }
 `;
