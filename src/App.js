@@ -21,9 +21,12 @@ const Button = styled.button`
 
 function App() {
 
-  const consultAPI = () => {
-    console.log('consulting api ...')
+  const consultAPI = async () => {
+    const api = await fetch('http://breaking-bad-quotes.herokuapp.com/v1/quotes');
+    const phrase = await api.json();
+    console.log(phrase)
   }
+
   return (
     <Container>
       <h1>Get Breaking bad phrase</h1>
