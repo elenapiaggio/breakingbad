@@ -1,23 +1,35 @@
 html {
   box-sizing: border-box;
 }
-*, *:before, *:after {
+
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
+
 * {
-  margin:0 ;
+  margin: 0;
 }
+
 html {
   height: 100%;
 }
+
 body {
-  background: -webkit-linear-gradient(top left, #78C9CE 0%, #78C9CE 40%, #0f574e 100%);
+  background: -webkit-linear-gradient(
+    top left,
+    #78c9ce 0%,
+    #78c9ce 40%,
+    #0f574e 100%
+  );
   width: 100%;
   min-height: 80%;
   display: flex;
   align-items: flex-end;
 }
-@media (min-width:768px) {
+
+@media (min-width: 768px) {
   body {
     align-items: center;
     background-size: 400px, 100% 100%;
