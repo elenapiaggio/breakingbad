@@ -17,6 +17,7 @@ const Button = styled.button`
     #fac138 40%,
     #f3be38 100%
   );
+  
   background-size: 300px;
   border-radius: 2rem;
   font-family: "Courier New", Courier, monospace;
@@ -25,6 +26,12 @@ const Button = styled.button`
   margin-top: 3rem;
   padding: 1rem 3rem;
   font-size: 2rem;
+  transition: background-size .6s ease;
+
+  :hover{
+    cursor: pointer;
+    background-size: 400px;
+  }
 `;
 
 function App() {
